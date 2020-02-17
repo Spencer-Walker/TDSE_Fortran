@@ -5,9 +5,9 @@
 BINDIR = ./
 FC = gfortran
 
-FFLAGS = -Wtabs -shared -O3 -fopenmp  -fbounds-check
+FFLAGS = -Wtabs -shared -O3 -fopenmp -fbounds-check
 FINC   = 
-LDFLAGS = 
+LDFLAGS = -fopenmp
 
 
 
