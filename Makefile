@@ -7,7 +7,7 @@ FC = gfortran
 
 FFLAGS = -Wtabs -shared -O3 -fopenmp -fbounds-check
 FINC   = 
-LDFLAGS = -fopenmp
+LDFLAGS = -fopenmp 
 
 
 

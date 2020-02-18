@@ -1,5 +1,11 @@
-r = linspace(-100,100,4001);
-V0 = -1./sqrt(2+r.^2);
+nr0 =1;
+nr = 2000;
+rmax = 100;
+h = 100/nr;
+
+r = (1:nr)*h;
+
+V0 = -1./sqrt(r.^2);
 dr = r(2)-r(1);
 
 H = -(0.5)*diag(ones(size(r(1:end-1))),-1) ...
